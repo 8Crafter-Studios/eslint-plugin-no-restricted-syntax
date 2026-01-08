@@ -1,3 +1,9 @@
+# v1.0.2
+
+## Additions
+
+-   Added a `namespace` meta property to the plugin with a value of `no-restricted-syntax`.
+
 # v1.0.1
 
 ## Critical Fixes

@@ -72,4 +72,8 @@ export default {
             },
         },
     },
+    meta: {
+        name: "eslint-plugin-no-restricted-syntax",
+        namespace: "no-restricted-syntax",
+    },
 };

@@ -3,6 +3,10 @@ declare const ruleModule: import("@eslint/core").Plugin & {
         error: import("@eslint/core").RuleDefinition;
         warn: import("@eslint/core").RuleDefinition;
     };
+    meta: {
+        name: "eslint-plugin-no-restricted-syntax";
+        namespace: "no-restricted-syntax";
+    };
 };
 
 export = ruleModule;
