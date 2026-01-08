@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-no-restricted-syntax",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An eslint plugin that adds two alternate rule names for the no-restricted-syntax rule, to allow some syntax to throw errors while others throw warnings.",
     "homepage": "https://github.com/8Crafter-Studios/eslint-plugin-no-restricted-syntax#readme",
     "bugs": {
@@ -24,7 +24,6 @@
         ".": {
             "types": "./index.d.ts",
             "import": "./index.mjs",
-            "module-sync": "./index.mjs",
             "require": "./index.cjs",
             "default": "./index.mjs"
         },
@@ -32,14 +31,12 @@
         "./index": {
             "types": "./index.d.ts",
             "import": "./index.mjs",
-            "module-sync": "./index.mjs",
             "require": "./index.cjs",
             "default": "./index.mjs"
         },
         "./index.js": {
             "types": "./index.d.ts",
             "import": "./index.mjs",
-            "module-sync": "./index.mjs",
             "require": "./index.cjs",
             "default": "./index.mjs"
         },
