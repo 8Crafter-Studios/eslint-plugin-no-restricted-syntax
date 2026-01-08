@@ -1,0 +1,14 @@
+test
+development_scripts
+other
+.git
+.gitattributes
+.github
+.vscode
+.mcattributes
+**/.*rc.json
+**/.*rc
+**/eslint-*-plugin.cjs
+**/eslint.config.cjs
+node_modules
+package-lock.json
